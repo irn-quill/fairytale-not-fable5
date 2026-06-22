@@ -25,4 +25,8 @@ Write:
 
 **`./pipeline/02-sources-validated.json`** — a new file, same structure as `sources.json`, with every source now carrying `verified`, `cut`, or `flagged`, and cut sources carrying a one-line reason. Do not modify the original `sources.json` — write a separate file so the raw sweep data is preserved intact.
 
-At the end, write a short summary block at the top of `02-validated-findings.md`: count of verified, count of cut (with reasons), count of flagged. The orchestrator reads this to present the checkpoint to the user.
+At the end, write a short summary block at the top of `02-validated-findings.md` containing two things:
+
+**Source counts:** verified, cut (with reasons), flagged.
+
+**Drift assessment:** re-read the original research question, then read the validated findings as a whole. Does the material actually address what was asked? If Stage 1 framed the question slightly differently to how it was posed, or went broad in a direction that doesn't serve the question, say so plainly — one or two sentences. If the material is well-aligned, say that. This is the last point before expensive stages run where drift can be caught and corrected without wasted cost.
