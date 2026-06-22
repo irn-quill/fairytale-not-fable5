@@ -8,12 +8,9 @@ Runs on your own Claude subscription. Nothing goes through anyone else's account
 
 ## What you get
 
-A `REPORT.md` containing:
-- The conclusion from Stage 4 (Opus), stated plainly with explicit confidence caveats
-- The adversarial critique from Stage 5 (Sonnet), ordered by severity
-- A short honest note on how much weight the conclusion can bear given what the critique found
+A `REPORT.md` containing a single integrated document — the conclusion with every critique point either conceded, answered, or marked as unresolved with confidence adjusted. Not two stapled documents with the reconciliation left to you.
 
-Plus all intermediate files — raw findings, validated sources, two analytical passes — left in `./pipeline/` for inspection.
+Plus all intermediate files — raw findings, validated sources, two analytical passes, the raw conclusion, and the raw critique — left in `./pipeline/` as the audit trail.
 
 ---
 

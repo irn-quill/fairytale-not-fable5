@@ -26,9 +26,19 @@ Reads `03b-analysis.md` only — the distilled, narrowed output. This is the one
 **Stage 5 — Challenge (subagent: `challenge`)**
 Reads `04-conclusion.md`. Attacks it: unsupported claims, logical gaps, assumptions presented as facts, missing counter-arguments, overconfident language. Writes `./pipeline/05-critique.md`. Sonnet critiques the Opus conclusion — a different model, different posture, no obligation to agree.
 
-## Final step
+## Final step — Synthesis (Sonnet)
 
-After Stage 5, write `./pipeline/REPORT.md`: the conclusion from Stage 4, followed by the critique from Stage 5, followed by a short honest note on how much weight the conclusion can bear given what the critique found. Do not silently resolve the critique into the conclusion — present both so the user sees the tension.
+Read `./pipeline/04-conclusion.md` and `./pipeline/05-critique.md`. Write `./pipeline/REPORT.md` as a single integrated document — not a concatenation of the two.
+
+The discipline on this step is the whole game. For every critique point in `05-critique.md`, you must do one of three things explicitly on the page:
+
+- **Concede it** — the critique lands, revise the conclusion accordingly
+- **Answer it** — explain why the conclusion survives the challenge
+- **Acknowledge it as unresolved** — mark the confidence down and say so plainly
+
+Nothing may be silently dropped. The tension still shows, but as worked reasoning with a clear final position — not as two stapled documents with the reconciliation left to the reader.
+
+`REPORT.md` is the document the user actually reads. The pipeline folder holds the receipts. The synthesis must not cheat against the receipts.
 
 ## Tiering rule (why the models are assigned as they are)
 
